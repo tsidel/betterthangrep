@@ -136,12 +136,16 @@ h1 {
 }
 
 h2 {
-  margin-top:0;
   font-size:1.5em;
+  margin-bottom:0;
 }
 
 h3 {
   font-size:1em;
+}
+
+p {
+  margin-top:0;
 }
 
 a {
@@ -189,6 +193,18 @@ a:hover {
   margin-bottom:10px;
 }
 
+.feature-bullets h2 {
+  margin-top:0;
+}
+
+.feature-install h2 {
+  margin-top:0;
+}
+
+.feature-testimonials {
+  margin-top:0;
+}
+
 .feature-bullets dt {
   font-weight:bold;
   margin:0 0 0 0;
@@ -208,6 +224,7 @@ border-bottom:none;
   display:block;
   float:left;
   margin-right:10px;}
+
 
 dt.fast:before {
   content:url('./lightning.png');
